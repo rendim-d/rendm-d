@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/A7zC3bvSNxWGyaP8jSuz2W.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Agar gambar terletak di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak diulang */
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.244); /* Menambahkan transparansi untuk header */
+    color: white;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan latar belakang putih transparan untuk konten */
+    border-radius: 8px; /* Menambahkan sudut membulat */
+}
